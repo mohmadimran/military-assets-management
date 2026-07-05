@@ -1,0 +1,69 @@
+# ==============================
+# Node.js / Express Backend
+# ==============================
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Dependency directories
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+dist/
+build/
+out/
+
+# Logs and temporary files
+logs/
+*.log
+debug.log
+error.log
+tmp/
+temp/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Optional cache folders
+.cache/
+.eslintcache
+.parcel-cache/
+.next/
+webpack-cache/
+
+# Optional backup or dump files
+*.sql
+*.sqlite
+dump.rdb
+
+# PM2 process logs
+pids/
+*.pid
+*.seed
+
+# Environment / secret / config backups
+config.json
+*.pem
+*.key
+*.crt
+
+# Optional: Ignore uploads if handled elsewhere
+uploads/
